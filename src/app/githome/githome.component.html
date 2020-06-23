@@ -1,11 +1,9 @@
-<!-- body section starts here -->
-
+ 
 <body>
   <div class="">
     <div>
       <h1 style="text-align: center">Welcome to my Git search  </h1>
-      <!-- <hr class="my-4"> -->
-      <p class="text-center">I can help you find Your Profile and Repository let's check it out:</p>
+       <p class="text-center">I can help you find Your Profile and Repository let's check it out:</p>
     </div>
 
 
@@ -31,11 +29,11 @@
         </div>
 
         <div class="col-md-6 ">
-          <!-- <div class="container "> -->
+     
           <h2>GITHUB PROFILE DETAILS</h2>
-          <!-- <div class="jumbotron"> -->
+           
           <div *ngFor="let github of githubs">
-            <!-- <div class="row"> -->
+            
             <div class="">
               <p appHighlight> <strong>Name:</strong> {{github.name}}</p>
               <p appHighlight> <strong>Username:</strong> {{github.login}}</p>
@@ -49,10 +47,7 @@
                       class="far fa-user pr-2" aria-hidden="true"></i>View Profile on Github</button></a></p>
               <br>
             </div>
-            <!-- </div> -->
-            <!-- </div> -->
-
-            <!-- </div> -->
+           
 
           </div>
         </div>
